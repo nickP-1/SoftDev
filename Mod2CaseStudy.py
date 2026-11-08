@@ -2,8 +2,8 @@
 # Mod2CaseStudy.py
 # This program will take in a students first and last name and their GPA. It will then determine if they made the deans list, honor roll, graduated or did not graduate.
 
-lastName = input("Enter Last Name: ")
-firstName = input("Enter First Name: ")
+lastName = input("Enter last name or zzz to quit: ")
+firstName = input("Enter first name: ")
 gpa = float(input("Enter GPA: "))
 
 if lastName == "zzz":
